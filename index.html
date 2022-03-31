@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:title" content="">
+	<meta property="og:type" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="apple-touch-icon" href="icon.png">
+	<!-- Place favicon.ico in the root directory -->
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+	<div id="truebody">
+		<div id="top" class="row">
+			<div class="page page1">Northwest</div>
+			<div class="page page2">NORTH</div>
+			<div class="page page3">Northeast</div>
+		</div>
+		<div id="middle" class="row">
+			<div class="page page1">WEST</div>
+			<div class="page page2" id="mainpage">
+				<ul>
+					<li>
+						<a href="#North" onclick="changePage('north')">North</a>
+					</li>
+					<li>
+						<a href="#South" onclick="changePage('south')">South</a>
+					</li>
+					<li>
+						<a href="#East" onclick="changePage('east')">East</a>
+					</li>
+					<li>
+						<a href="#West" onclick="changePage('west')">West</a>
+					</li>
+					<li>
+						<a href="#Northeast" onclick="changePage('northeast')">Northeast</a>
+					</li>
+					<li>
+						<a href="#Southeast" onclick="changePage('southeast')">Southeast</a>
+					</li>
+					<li>
+						<a href="#Northwest" onclick="changePage('northwest')">Northwest</a>
+					</li>
+					<li>
+						<a href="#Southwest" onclick="changePage('southwest')">Southwest</a>
+					</li>
+				</ul>
+			</div>
+			<div class="page page3">EAST</div>
+		</div>
+		<div id="bottom" class="row">
+			<div class="page page1">Southwest</div>
+			<div class="page page2">SOUTH</div>
+			<div class="page page3">Southeast</div>
+		</div>
+	</div>
+
+	<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+	<script>
+		window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+		ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+	</script>
+	<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
