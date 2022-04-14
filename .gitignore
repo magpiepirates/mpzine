@@ -4,3 +4,9 @@
 node_modules
 dist
 .cache
+HighTide_UnityProject/MapImport.sln
+HighTide_UnityProject/.vsconfig
+HighTide_UnityProject/Assembly-CSharp.csproj
+HighTide_UnityProject/HighTide_UnityProject.sln
+HighTide_UnityProject/Library/
+HighTide_UnityProject/UserSettings/
