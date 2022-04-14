@@ -27,7 +27,7 @@
 				[-90, -180],
 				[90, 180]
 			],
-			maxZoom: 1,
+			maxZoom: 2,
 			crs: L.CRS.Simple,
 		}).addTo(map);
 		L.GridLayer.GridDebug = L.GridLayer.extend({
@@ -37,7 +37,7 @@
                 tile.style.fontWeight = 'bold';
                 tile.style.color = 'white';
                 tile.style.fontSize = '14pt';
-                tile.style.textShadow = '0px 0px 5px black'
+                tile.style.textShadow = '0px 0px 10px black'
 				tile.innerHTML = [coords.z, coords.x, coords.y].join('/');
 				return tile;
 			},
